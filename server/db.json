@@ -20,8 +20,23 @@
   "bank-accounts": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "account-type": "junior",
+      "balance": 230
+    },
+    {
+      "id": 2,
+      "account-type": "normal",
+      "balance": 2300
+    },
+    {
+      "id": 3,
+      "account-type": "normal",
+      "balance": 42102
+    },
+    {
+      "id": 4,
+      "account-type": "biznes",
+      "balance": 300000
     }
   ]
 }
