@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "Jacek@jacek.pl"
+    },
+    {
+      "id": 2,
+      "email": "Ania@ania.pl"
+    },
+    {
+      "id": 3,
+      "email": "Marek@marek.pl"
+    },
+    {
+      "id": 4,
+      "email": "Ola@ola.pl"
+    }
+  ],
+  "bank-accounts": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}
