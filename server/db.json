@@ -38,5 +38,61 @@
       "type": "biznes",
       "balance": 300000
     }
+  ],
+  "bank-accounts-full": [
+    {
+      "id": 1,
+      "name": "Marek",
+      "lastName": "Kowlski",
+      "email": "Marek@gmail.com",
+      "type": "junior",
+      "balance": 230,
+      "imageId": "1"
+    },
+    {
+      "id": 2,
+      "name": "Jarosław",
+      "lastName": "Młynarski",
+      "email": "Jarek@gmail.com",
+      "type": "normal",
+      "balance": 3440,
+      "imageId": "2"
+    },
+    {
+      "id": 3,
+      "name": "Aleksandra",
+      "lastName": "Kowalska",
+      "email": "Ola@gmail.com",
+      "type": "normal",
+      "balance": 5030,
+      "imageId": "3"
+    },
+    {
+      "id": 4,
+      "name": "Katarzyna",
+      "lastName": "Nowak",
+      "email": "Kasia@gmail.com",
+      "type": "junior",
+      "balance": 21,
+      "imageId": "4"
+    },
+    {
+      "id": 5,
+      "name": "Dawid",
+      "lastName": "Wójcik",
+      "email": "Wójcik@gmail.com",
+      "type": "biznes",
+      "balance": 20540,
+      "imageId": "5"
+    },
+    {
+      "id": 6,
+      "name": "Alan",
+      "lastName": "Makowski",
+      "email": "Mak@gmail.com",
+      "type": "normal",
+      "balance": 520,
+      "imageId": "6"
+    }
   ]
 }

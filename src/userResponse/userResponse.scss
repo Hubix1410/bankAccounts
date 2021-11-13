@@ -1,5 +1,19 @@
 .accountDisplay{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
     font-size: 24px;
     width: calc(100vw - 400px);
+    overflow: auto;
+
+    .accountSmall{
+        border:1px solid black;
+        width:250px;
+        height:200px;
+        margin:20px;
+        ul{
+            list-style: none;
+        }
+    }
 }
