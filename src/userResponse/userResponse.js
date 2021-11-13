@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./userResponse.scss";
 
 export function UserResponse() {
 
@@ -30,7 +31,7 @@ export function UserResponse() {
     }
 
 
-    if (users !== undefined) {
+    if (accounts !== undefined) {
         accountsMap = accounts.map((element, index) =>
             <div key={index}>
                 <ul>
@@ -42,9 +43,9 @@ export function UserResponse() {
     }
 
     return (
-        <div>
-            <h2>{usersMap}</h2>
-            <h2>{accountsMap}</h2>
+        <div className="container">
+            <div className="emailDiv">{usersMap}</div>
+            <div className="accountDiv">{accountsMap}</div>
         </div>
     )
 }

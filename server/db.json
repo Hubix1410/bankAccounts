@@ -20,22 +20,22 @@
   "bank-accounts": [
     {
       "id": 1,
-      "account-type": "junior",
+      "type": "junior",
       "balance": 230
     },
     {
       "id": 2,
-      "account-type": "normal",
+      "type": "normal",
       "balance": 2300
     },
     {
       "id": 3,
-      "account-type": "normal",
+      "type": "normal",
       "balance": 42102
     },
     {
       "id": 4,
-      "account-type": "biznes",
+      "type": "biznes",
       "balance": 300000
     }
   ]

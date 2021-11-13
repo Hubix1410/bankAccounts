@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { UserResponse } from './userResponse/userResponse';
+import "./main.scss";
 
 
 ReactDOM.render(
