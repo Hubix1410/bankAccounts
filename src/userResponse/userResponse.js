@@ -43,9 +43,7 @@ export function UserResponse() {
     }
 
     return (
-        <div className="container">
-            <div className="emailDiv">{usersMap}</div>
-            <div className="accountDiv">{accountsMap}</div>
+        <div className="accountDisplay">
         </div>
     )
 }
