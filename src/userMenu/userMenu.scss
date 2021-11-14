@@ -1,7 +1,14 @@
+$mainDark: #292929;
+$secondaryDark: #3C4042;
+$white: #FCFCFC;
+$gold:  #FFD700;
+
 .menuDiv{
     width:500px;
     height:100vh;
-    background-color: bisque;
+    background-color: $mainDark;
+
+    font-family: monospace;
 
     display: flex;
     flex-direction: column;
@@ -9,19 +16,34 @@
 
     h1{
         text-align: center;
-        font-size: 38px;
+        font-size: 48px;
+        color: $white;
+        span{
+            color: $gold
+        }
     }
 
-    .specificAccount{
-        width:50px;
-        height:50px;
-        font-size: 26px;
-        text-align: center;
-        outline:none;
-    }
+    p{
+        font-size: 24px;
+        color: $white;
 
-    input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
-      }
+        .specificAccount{
+            width:50px;
+            height:50px;
+            font-size: 26px;
+            margin-left: 20px;
+            text-align: center;
+            outline:none;
+            box-sizing: border-box;
+
+            &:focus{
+                border: 1px solid $gold;
+            }
+        }
+
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    }
 }

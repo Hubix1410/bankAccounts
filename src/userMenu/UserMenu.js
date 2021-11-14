@@ -1,10 +1,23 @@
 import "./userMenu.scss";
 
-export function UserMenu(){
-    return(
+export function UserMenu({ currentUser, setCurrentUser }) {
+
+    function setUserID(element) {
+        setCurrentUser(element.target.value);
+    }
+
+    return (
         <div className="menuDiv">
-            <h1>Bank Accounts</h1>
-            <p>Account ID: <input type="number" className="specificAccount"/></p>
+            <h1><span>Bank</span> Accounts</h1>
+            <p>Account ID:
+                <input
+                    onChange={setUserID}
+                    value={currentUser}
+                    type="number"
+                    className="specificAccount"
+                />
+            </p>
+
         </div>
     )
 }
