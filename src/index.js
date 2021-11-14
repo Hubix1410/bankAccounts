@@ -1,16 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { UserResponse } from './userResponse/userResponse';
-import "./main.scss";
-import { UserMenu } from './userMenu/UserMenu';
-
+import { App } from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="container">
-      <UserMenu/>
-      <UserResponse/>
-    </div>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
