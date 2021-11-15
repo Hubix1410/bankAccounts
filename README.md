@@ -4,13 +4,19 @@ npx json-server --watch server/db.json
 
 # First Stage
 
+### Commit: FIRST TASK DONE with SASS. Sha: 0dc9788c29f4d79db4789b02eca7379deef756a8
+
 <img src="screens/stage1.png" alt="stage1" width="400"/>
 
 # Second Stage
 
+### Commit: TASK 2 DONE with SASS. Sha: 89b9555d5c7e8ffbc875c2b3aec33c952b6a1b79
+
 <img src="screens/stage2.png" alt="stage2" width="400"/>
 
 # Thrid stage
+
+### Commit: TASK 3 DONE with SASS. Sha: 732e965cc12d078813250d101d4935b3abbab565
 
 <img src="screens/stage3.png" alt="stage3" width="400"/>
 
