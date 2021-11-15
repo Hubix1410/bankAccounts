@@ -1,3 +1,13 @@
+# JSON SERVER 
+
+npx json-server --watch server/db.json
+
+# First Stage
+
+# Second Stage
+
+# Thrid stage
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
