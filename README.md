@@ -4,9 +4,15 @@ npx json-server --watch server/db.json
 
 # First Stage
 
+<img src="screens/stage1.png" alt="stage1" width="400"/>
+
 # Second Stage
 
+<img src="screens/stage2.png" alt="stage2" width="400"/>
+
 # Thrid stage
+
+<img src="screens/stage3.png" alt="stage3" width="400"/>
 
 # Getting Started with Create React App
 
