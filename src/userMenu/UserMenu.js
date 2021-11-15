@@ -6,6 +6,10 @@ export function UserMenu({ currentUser, setCurrentUser }) {
         setCurrentUser(element.target.value);
     }
 
+    function showAllAccounts(){
+        setCurrentUser("all");
+    }
+
     return (
         <div className="menuDiv">
             <h1><span>Bank</span> Accounts</h1>
@@ -17,6 +21,8 @@ export function UserMenu({ currentUser, setCurrentUser }) {
                     className="specificAccount"
                 />
             </p>
+
+            <button onClick={showAllAccounts} className="allAccounts">Show all accounts</button>
 
         </div>
     )

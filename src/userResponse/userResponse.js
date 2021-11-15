@@ -7,10 +7,18 @@ export function UserResponse({ currentUser, setCurrentUser }) {
     let usersMap;
 
     if (currentUser !== undefined) {
-        fetch("http://localhost:3000/bank-accounts-full?id=" + currentUser)
+        if(currentUser === "all"){
+            fetch("http://localhost:3000/bank-accounts-full")
             .then(response => response.json())
             .then(data => setUsers(data));
         setCurrentUser(undefined);
+        }
+        else{
+            fetch("http://localhost:3000/bank-accounts-full?id=" + currentUser)
+            .then(response => response.json())
+            .then(data => setUsers(data));
+        setCurrentUser(undefined);
+        }
     }
 
     if (users !== undefined) {
