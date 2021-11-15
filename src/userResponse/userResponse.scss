@@ -12,16 +12,46 @@ $gold:  #FFD700;
     width: calc(100vw - 400px);
     overflow: auto;
     background-color: $secondaryDark;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     .account{
         background-color: $mainDark;
         color: $white;
         width:400px;
-        height:550px;
+        height:530px;
         margin:20px;
-        border-radius: 12px;
+        border-radius: 0 12px 12px 0;
+        border-left: 1px solid $gold;
+
         ul{
             list-style: none;
+
+            .name{
+                font-size: 24px;
+                margin: 10px 0;
+            }
+
+            .email{
+                font-size: 18px;
+            }
+
+            img{
+                width:320px;
+                border-radius: 14px;
+                margin: 10px 0;
+            }
+
+            .accountType{
+                font-size: 18px;
+            }
+
+            .balance{
+                font-size: 24px;
+                margin: 10px 0;
+                span{
+                    color: $gold;
+                }
+            }
         }
     }
 

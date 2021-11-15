@@ -21,13 +21,15 @@ export function UserResponse({ currentUser, setCurrentUser }) {
             usersMap = users.map((element, index) =>
                 <div key={index} className="account">
                     <ul>
-                        <li>{element.name} {element.lastName}</li>
-                        <li>email: {element.email}</li>
-                        <li>Type: {element.type}</li>
-                        <li>Balance: {element.balance} zł</li>
+                        <li className="name">Name: {element.name} {element.lastName}</li>
+                        <li className="email">Email: {element.email}</li>
+                        <img src={`/imgs/face-${element.imageId}.jpg`} alt="img"/>
+                        <li className="accountType">Account type: {element.type}</li>
+                        <li className="balance">Balance: <span>{element.balance} zł</span></li>
                     </ul>
                 </div>
             );
+            
         }
     }
 
